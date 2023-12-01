@@ -10,4 +10,8 @@ class HomeController extends Controller
 
         return view('welcome', compact('pageTitle'));
     }
+
+    public function about(){
+        return view('pages.about');
+    }
 }
